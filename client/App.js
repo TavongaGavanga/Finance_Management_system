@@ -13,11 +13,3 @@ const App = () => {
     }
   }, [])
   return (
-  <BrowserRouter>
-      <ThemeProvider theme={theme}>
-        <MainRouter/>
-      </ThemeProvider>
-  </BrowserRouter>
-)}
-
-export default hot(module)(App)
