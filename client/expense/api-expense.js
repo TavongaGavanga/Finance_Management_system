@@ -171,4 +171,3 @@ const create = async (credentials, expense) => {
     update,
     remove
   }
-  
